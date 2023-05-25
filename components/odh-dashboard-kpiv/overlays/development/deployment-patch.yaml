@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: odh-dashboard-kpiv
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-ee-dchouras-tenant/odh-dashboard/odh-dashboard-kpiv@sha256:c46a6d2ffd68f9795f8a3e549327548cb081efb536b37674a2324078fce70f01
+        name: container-image
+        resources: {}
+status: {}
