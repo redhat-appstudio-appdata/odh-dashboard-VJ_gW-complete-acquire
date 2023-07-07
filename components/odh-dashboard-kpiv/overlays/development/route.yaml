@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: odh-dashboard-kpiv
     app.kubernetes.io/part-of: odh-dashboard
-  name: odh-dashboard-kpiv0ziq
+  name: odh-dashboard-kpivzsbe
 spec:
   port:
     targetPort: 8080
