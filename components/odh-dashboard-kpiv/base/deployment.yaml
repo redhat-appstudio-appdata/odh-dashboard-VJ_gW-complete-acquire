@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: odh-dashboard-kpiv
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-dchouras-tenant/odh-dashboard/odh-dashboard-kpiv@sha256:bbf618155846ae81145fa9b508f7f9863b37691c6f6ddcfcbcad6e8f7429553d
+      - image: quay.io/redhat-user-workloads/rh-ee-dchouras-tenant/odh-dashboard/odh-dashboard-kpiv@sha256:c46a6d2ffd68f9795f8a3e549327548cb081efb536b37674a2324078fce70f01
         imagePullPolicy: Always
         name: container-image
         ports:
